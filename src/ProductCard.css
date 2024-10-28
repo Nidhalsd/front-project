@@ -1,0 +1,58 @@
+.custom-card {
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions for hover effects */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange children in a column */
+    height: 100%; /* Allow cards to stretch in a grid */
+  }
+  
+  .custom-card-img {
+    height: 200px; /* Fixed height for images */
+    object-fit: contain; /* Maintain aspect ratio */
+    border-top-left-radius: 15px; /* Match card border radius */
+    border-top-right-radius: 15px; /* Match card border radius */
+  }
+  
+  .custom-card-body {
+    padding: 15px; /* Adjust padding for card body */
+    flex-grow: 1; /* Allow body to expand to fill space */
+    display: flex; /* Use flexbox to arrange title, description, and button */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: space-between; /* Space items evenly */
+  }
+  
+  .custom-card-title {
+    font-size: 1.5rem; /* Larger title */
+    font-weight: bold; /* Bold title */
+    color: #333; /* Darker title color */
+  }
+  
+  .custom-card-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Allow wrapping */
+    color: #666; /* Gray color for description */
+  }
+  
+  .custom-card-price {
+    font-size: 1.2rem; /* Adjust price font size */
+    color: #470f39; /* Red color for price */
+    margin-bottom: 10px; /* Spacing below price */
+  }
+  
+  .custom-button {
+    background-color: #d9534f; /* Bootstrap primary color */
+    color: white; /* Button text color */
+    transition: background-color 0.2s;
+    
+  }
+  
+  .custom-button:hover {
+    background-color: #000000; /* Darker blue on hover */
+  }
+  

@@ -1,0 +1,113 @@
+.hero-section {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+.carousel-wrapper {
+  margin-bottom: 2rem;
+}
+
+.category-section, .featured-products {
+  padding: 2rem 0;
+}
+
+.category-item .category-card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.category-item .category-card:hover {
+  transform: scale(1.05);
+}
+
+.promo-banner {
+  background-color: #343a40;
+  color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.footer-container {
+  background-color: #343a40;
+  color: #f8f9fa;
+  padding: 40px 0 20px;
+}
+
+.footer-top {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #495057;
+}
+
+.footer-col h5 {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  color: #f8f9fa;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  color: #adb5bd;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-list a:hover {
+  color: #d9534f;
+}
+
+/* Newsletter Form */
+.newsletter-form {
+  margin-bottom: 20px;
+}
+
+.newsletter-form input {
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.newsletter-form button {
+  border-radius: 20px;
+  background-color: #6e3030;
+  border: none;
+}
+
+.newsletter-form button:hover {
+  background-color: #c12e2a;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+  margin-top: 20px;
+}
+
+.social-media-icons a {
+  font-size: 1.5rem;
+  color: #adb5bd;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-media-icons a:hover {
+  color: #d9534f;
+}
+
+.footer-bottom {
+  padding: 20px 0;
+  background-color: #23272b;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #6c757d;
+}

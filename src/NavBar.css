@@ -1,0 +1,63 @@
+/* NavBar.css */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff; 
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+h6 {
+  font-size: 36px; /* Increase font size for better visibility */
+  font-weight: bold; /* Bold font weight */
+  color: #d9534f; /* Logo color */
+  letter-spacing: 2px; /* Space out the letters */
+  text-transform: uppercase; /* Make the text uppercase for emphasis */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  font-family: 'Arial', sans-serif; /* Set a clean, modern font */
+  margin: 0; /* Remove default margin */
+}
+
+.links {
+  display: flex;
+  gap: 30px; /* Space between links */
+}
+
+.links a {
+  text-decoration: none;
+  color: #333; /* Dark text color */
+  font-weight: 600; /* Increased font weight */
+  font-size: 18px; /* Increased font size */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.links a:hover {
+  color: #d9534f; /* Hover color */
+}
+
+.auth-links {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Increased space for better appearance */
+}
+
+.auth-links a,
+.auth-links button {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600; /* Increased font weight */
+  font-size: 18px; /* Increased font size */
+}
+
+.auth-links button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.panier-link {
+  color: #d9534f; /* Highlight cart link */
+  font-weight: bold;
+  font-size: 18px; /* Increased font size */
+}

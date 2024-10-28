@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-size: 36px; /* Increase font size for better visibility */
+    font-weight: bold; /* Bold font weight */
+    color: #d9534f; /* Logo color */
+    letter-spacing: 2px; /* Space out the letters */
+    text-transform: uppercase; /* Make the text uppercase for emphasis */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Set a clean, modern font */
+  }
+  
